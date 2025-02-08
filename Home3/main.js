@@ -131,19 +131,19 @@
 // --------------------
 
 // є масив
-// let users = [
-//     {name: 'vasya', age: 31, status: false},
-//     {name: 'petya', age: 30, status: true},
-//     {name: 'kolya', age: 29, status: true},
-//     {name: 'olya', age: 28, status: false},
-//     {name: 'max', age: 30, status: true},
-//     {name: 'anya', age: 31, status: false},
-//     {name: 'oleg', age: 28, status: false},
-//     {name: 'andrey', age: 29, status: true},
-//     {name: 'masha', age: 30, status: true},
-//     {name: 'olya', age: 31, status: false},
-//     {name: 'max', age: 31, status: true}
-// ];
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+];
 
 // let x= 0
 // while (x < users.length) {
@@ -177,6 +177,24 @@
 //         document.write(`<div><ul><li>${user.status} ${user.name}</ul></div>`);
 //     }
 // }
+
+// for (let i = 0; i < users.length; i++) {
+//     let x = users[i];
+//
+//     if (x.age >= 30){
+//         console.log(x)
+//     }
+// }
+
+// for (user of users) {
+//     if (user.age >= 30) {
+//         let old = user;
+//         console.log(old )
+//     }
+// }
+
+
+
 
 // за допомоги циклу вивести:
 //     - користувачів зі статусом true
