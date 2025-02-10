@@ -33,26 +33,32 @@
 // Масив:
 // let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 // let x = 0
+//
+//  document.write('<ul>')
 // while (x< listOfItems.length) {
 //     let item = listOfItems[x];
 //     x++
-//     document.write(`<ul><li>${item}</li></ul>`);
+//     document.write(`<li>${item}</li>`);
 // }
+// document.write('</ul>')
 
+// document.write('<ul>')
 // for (x in listOfItems) {
 //     let item = listOfItems[x];
-//     document.write(`<ul>
-//         <li>${item}</li>
-// </ul>`);
+//     document.write(`
+//         <li>${item}</li>`);
 // }
+// document.write('<ul>')
 
+// document.write('<ul>')
 // for (let i = 0; i <listOfItems.length; i++) {
 //     let item = listOfItems[i];
-//     document.write(`<ul>
+//     document.write(`
 //           <li>
 //         ${item}
-// </li></ul>`)
+// </li>`)
 // }
+// document.write('<ul>')
 
 // ШАБЛОН:
 //     <ul>
@@ -105,13 +111,14 @@
 // </div>`)
 // }
 
-// for (x in products) {
+// for ( x in products) {
 //     let product = products[x];
 //     document.write(`<div class="product">
-//         <h3>${product.title} ${product.price}</h3>
-//         <img src="${product.image}" style="height: 300px" width="300px">
-// </div>`)
+//          <h3>${product.title} ${product.price}</h3>
+//          <img src="${product.image}" style="height: 300px" width="300px">
+//  </div>`)
 // }
+
 
 // for (let i = 0; i < products.length; i++) {
 //     let product = products[i];
