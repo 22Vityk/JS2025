@@ -175,10 +175,91 @@
 // console.log(newDeck)
 
 // =========================
-import * as array from "./array.js";
+
 // взяти з arrays.js масив coursesArray
+
 // --написати пошук всіх об'єктів, в яких в modules є sass
+
+// let coursesArray = [
+//     {
+//         title: 'JavaScript Complex',
+//         monthDuration: 5,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js','sass','sass']
+//     },
+//     {
+//         title: 'Java Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'java core',
+//             'java advanced']
+//     },
+//     {
+//         title: 'Python Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'python core',
+//             'python advanced']
+//     },
+//     {
+//         title: 'QA Complex',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+//     },
+//     {
+//         title: 'FullStack',
+//         monthDuration: 7,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'react',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'node.js',
+//             'python',
+//             'java']
+//     },
+//     {
+//         title: 'Frontend',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+//     }
+// ];
+
+// let one = coursesArray.filter(item => item.modules.includes('sass'));
+
 // --написати пошук всіх об'єктів, в яких в modules є docker
-object.keys(array).forEach((key) => {
-    console.log(key)
-});
+
+// let wto = coursesArray.filter(item => item.modules.includes('docker'));
+
+// let redu = coursesArray.reduce((acc, cur) => {
+//     let dd = cur.modules.filter(value => value ==='docker' );
+//        if (dd.length > 0) {
+//            acc.doker.push(cur);
+//        }
+//     return acc;
+// },{doker:[]})
