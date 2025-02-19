@@ -227,7 +227,7 @@
 
 // *Через Array.prototype. створити власний foreach, filter
 
-// let arr = [2,3,4,5,'22222']
+// let arr = ['22222',2,3,4,5,'222222']
 // Array.prototype.myEach = function (callback) {
 //     for (const item of this) {
 //          callback(item)
@@ -244,5 +244,5 @@
 //     }
 //     return result
 // }
-// let a = arr.finde((value => value >= 5  ))
+// let a = arr.finde((value => value <= 5  ))
 // console.log(a)
