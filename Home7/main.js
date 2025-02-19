@@ -227,7 +227,7 @@
 
 // *Через Array.prototype. створити власний foreach, filter
 
-let arr = [2,3,4,5,'22222']
+// let arr = [2,3,4,5,'22222']
 // Array.prototype.myEach = function (callback) {
 //     for (const item of this) {
 //          callback(item)
