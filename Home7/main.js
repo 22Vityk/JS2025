@@ -236,7 +236,7 @@
 // let aaa = arr.myEach(value =>console.log(value));
 
 // Array.prototype.finde = function(callback) {
-//     let result = []
+//     let result = [];
 //     for (const item of this) {
 //         if (callback(item)) {
 //           result.push(item)
